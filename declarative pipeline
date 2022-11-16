@@ -1,0 +1,21 @@
+Jenkinsfile (Declarative Pipeline)
+pipeline {
+    agent any ANY AVAILABLE AGENT EXECUTE THIS PIPELINE AT ANY OF ITS STAGES
+    stages {
+        stage('Build') { BUILD STAGE
+            steps {     PERFORM STEPS FROM BUILD STAGE
+                // 
+            }
+        }
+        stage('Test') { TEST STAGE
+            steps {   PERFORM STEPS FROM TEST STAGE
+                // 
+            }
+        }
+        stage('Deploy') { DEPLOY STAGE
+            steps { PERFORM STEPS FROM DEPLOY STAGEs
+                // 
+            }
+        }
+    }
+}
